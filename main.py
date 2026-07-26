@@ -138,10 +138,10 @@ async def start_command(client, message):
         return
 
     await message.reply(
-        "🤖 **Session Generator Bot**\n\n"
+        "🍒 **Session Generator Bot**\n\n"
         "📱 Send /get to generate your Telegram session string!\n"
         "🔒 **Safe & Secure** - No API_ID/HASH needed!\n\n"
-        "🔧 **Developer:** @carlo_op"
+        "🔧 **Developer:** @Cherry_hereee"
     )
 
 @app.on_message(filters.command("get"))
